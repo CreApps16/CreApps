@@ -11,7 +11,7 @@ const Home = () => {
             
             /> 
             <div>
-                Hola soy la pagina de ahora voy a poner todo mi contenido en esta pagina 
+                Hola soy la pagina de ahora desplegada y con el nuevo nombre! 
 
             </div>
         </div>
