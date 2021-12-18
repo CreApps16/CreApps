@@ -33,7 +33,7 @@ const Planes = () => {
                                     <br />
                                     <p className='text-center'>Equipo conformado por:
                                         <br />
-                                        1 Project manager
+                                        1 Project manager*
                                         <br />
                                         1 Diseñador UI
                                         <br />
