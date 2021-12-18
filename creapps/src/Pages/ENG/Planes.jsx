@@ -2,118 +2,181 @@ import React from 'react'
 import Banner2 from 'Components/Banner2';
 import Navbar2 from 'Components/Navbar2';
 import ContactButton2 from 'Components/ContactButton2';
+import Movil from 'Media/movil.png';
+import Web from 'Media/web.png';
+import Diu from 'Media/diseno_iu.png';
+import Pdigitales from 'Media/productos-digitales.png';
+import Footer2 from 'Components/Footer';
 
 const Planes = () => {
     return (
         <div>
             <Navbar2/>
            <div className='bg-gray-200 font-["verdana"]'>
-            <Banner2 
-                title='Plans & Pricing'
-                text='Your success is our success. Our teams work hard to deliver on the most demanding projects.'
-            
-            />
-            <div className='bg-gray-200 h-full'>
-                    <h1 className='text-center text-3xl mt-10 font-bold text-gray-800'>
-                    Our plans provide flexibility and value from day one
-                    </h1>
-                    <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
+                <Banner2 
+                    title='Plans & Pricing'
+                    text='Your success is our success. Our teams work hard to deliver on the most demanding projects.'/>
+                <div className='bg-gray-200 h-full'>
+                            <h1 className='text-center text-3xl mt-10 font-bold text-gray-800'>
+                            Our plans provide flexibility and value
+                            </h1>
+                            <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
 
-                        <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
-                            <div className='flex flex-col col-span-3 '>
-                                <div>
-                                    <div className='text-center font-bold text-2xl'>
-                                        Plan
-                                        <br />
-                                        Startup
-                                    </div>
-                                        <br />
-                                    <h1 className='text-center font-bold text-3xl'>$ 3.000</h1>
-                                    <p className='text-center'>USD per month</p>
-                                    <br />
-                                    <p className='text-center'>Equipo conformado por:
-                                        <br />
-                                        1 Project manager*
-                                        <br />
-                                        1 Diseñador UI
-                                        <br />
-                                        1 Desarrollador FullStack Jr.
-                                    </p>
-                                    <br />
-                                    <div  className='mx-auto my-3 mb-8 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
-                                        <ContactButton2 text='Hire Team' />
-                                    </div>
+                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                                    <div className='flex flex-col col-span-3 '>
+                                        <div>
+                                            <div className='text-center font-bold text-2xl'>
+                                                Startup
+                                                <br />
+                                                Plan
+                                            </div>
+                                                <br />
+                                            <h1 className='text-center font-bold text-3xl'>$ 3.000</h1>
+                                            <p className='text-center'>USD per Month</p>
+                                            <br />
+                                            <p className='text-center'>Shared team consisting of:
+                                                <br />
+                                                1 Project manager*
+                                                <br />
+                                                1 UI Dessigner
+                                                <br />
+                                                1 FullStack Jr Developer.
+                                            </p>
+                                            <br />
+                                            <div  className='mx-auto my-3 mb-8 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
+                                                <ContactButton2 text='Hire this plan' />
+                                            </div>
 
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10'>
-                            <div className='flex flex-col col-span-3 '>
-                                <div>
-                                    <div className='text-center font-bold text-2xl'>
-                                        Plan
-                                        <br />
-                                        Scaleup
-                                    </div>
-                                        <br />
-                                    <h1 className='text-center font-bold text-3xl'>$ 5.000</h1>
-                                    <p className='text-center'>USD per month</p>
-                                    <br />
-                                    <p className='text-center'>Equipo conformado por:
-                                        <br />
-                                        1 Project manager
-                                        <br />
-                                        1 Diseñador UI
-                                        <br />
-                                        1 Desarrollador FullStack Jr.
-                                    </p>
-                                    <br />
-                                    <div  className='mx-auto my-3 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
-                                        <ContactButton2 text='Hire Team' />
-                                    </div>
-
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10'>
-                            <div className='flex flex-col col-span-3 '>
-                                <div>
-                                    <div className='text-center font-bold text-2xl'>
-                                        Plan
-                                        <br />
-                                        CreApp
-                                    </div>
-                                        <br />
-                                    <h1 className='text-center font-bold text-3xl'>Consulta</h1>
-                                    <p className='text-center'></p>
-                                    <br />
-                                    <p className='text-center'>Dedicated team formed according to the needs of the project.
+                                        </div>
                                         
-                                    </p>
-                                    <br />
-                                    <div  className='mx-auto my-3 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
-                                        <ContactButton2 text='More info' />
                                     </div>
-
                                 </div>
-                                
+                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10'>
+                                    <div className='flex flex-col col-span-3 '>
+                                        <div>
+                                            <div className='text-center font-bold text-2xl'>
+                                                Scaleup
+                                                <br />
+                                                Plan
+                                            </div>
+                                                <br />
+                                            <h1 className='text-center font-bold text-3xl'>$ 5.000</h1>
+                                            <p className='text-center'>USD per month</p>
+                                            <br />
+                                            <p className='text-center'>Shared team consisting of:
+                                                <br />
+                                                1 Project manager
+                                                <br />
+                                                1 UI Dessigner
+                                                <br />
+                                                1 FullStack Jr Developer.
+                                            </p>
+                                            <br />
+                                            <div  className='mx-auto my-3 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
+                                                <ContactButton2 text='Hire this plan' />
+                                            </div>
+
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10'>
+                                    <div className='flex flex-col col-span-3 '>
+                                        <div>
+                                            <div className='text-center font-bold text-2xl'>
+                                                CreApp
+                                                <br />
+                                                Plan
+                                            </div>
+                                                <br />
+                                            <h1 className='text-center font-bold text-3xl'>Consult</h1>
+                                            <p className='text-center'></p>
+                                            <br />
+                                            <p className='text-center'>Dedicated team formed according to the needs of the project.
+                                                
+                                            </p>
+                                            <br />
+                                            <div  className='mx-auto my-3 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
+                                                <ContactButton2 text='More info' />
+                                            </div>
+
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
                             </div>
-                        </div>
 
-                    </div>
-                    
+                            <h1 className='text-center text-3xl mt-20 font-bold text-gray-800'>
+                                Software Develpment
+                            </h1>
+                            <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
 
-                        
+                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                                    <div className='flex flex-col col-span-3 '>
+                                        <div>
+                                            <img src={Movil} alt='imagen de movil' className='p-7'></img>
+                                            <div className='text-center mb-6 font-bold text-2xl'>
+                                                <br />
+                                                Mobil Apps
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                                    <div className='flex flex-col col-span-3 '>
+                                        <div>
+                                            <img src={Web} alt='imagen de movil' className='p-7'></img>
+                                            <div className='text-center mb-6 font-bold text-2xl'>
+                                                <br />
+                                                Web Aplications/Platforms
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                                    <div className='flex flex-col col-span-3 '>
+                                        <div>
+                                            <img src={Diu} alt='imagen de movil' className='p-7'></img>
+                                            <div className='text-center mb-6 font-bold text-2xl'>
+                                                <br />
+                                                User Interfaces Dessign (UI)
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
+                                
+                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                                    <div className='flex flex-col col-span-3 '>
+                                        <div>
+                                            <img src={Pdigitales} alt='imagen de movil' className='p-7'></img>
+                                            <div className='text-center mb-6 font-bold text-2xl'>
+                                                <br />
+                                                Digital Products Development
+                                                <br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                            
+                            </div>         
+                                                    
+
+                            
+                </div>
+            </div> 
+            <Footer2/>
+        </div>
 
                 
-            </div>
-
-
-            
-        </div> 
-        </div>
         
     )
 }

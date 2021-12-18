@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'Components/Navbar';
 import Banner from 'Components/Banner';
+import Footer from 'Components/Footer';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                 Hola soy la pagina de ahora desplegada y con el nuevo nombre! 
 
             </div>
+            <Footer/>
         </div>
     )
 }
