@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactButton from './Components/ContactButton'
+import ContactButton from 'Components/ContactButton';
 
 
 const Banner = ( { title, text } ) => {
@@ -13,7 +13,7 @@ const Banner = ( { title, text } ) => {
                             {text}
                         </h3>
                         <div  className='ml-40 my-10 bg-gray-800 w-40 h-12 rounded hover:scale-110 transition-transform  text-center   text-white'>
-                            <ContactButton  />
+                            <ContactButton text='Contáctanos' />
                         </div>
 
                     </div>

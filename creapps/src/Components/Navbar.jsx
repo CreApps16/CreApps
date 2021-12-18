@@ -11,9 +11,11 @@ const Navbar = () => {
             <div>
                 <NavbarLinks/>
             </div>
-            <div >
+            <div className='flex flex-row'>
                 <button >ESP</button>
-                <ContactButton />
+                <div  className='ml-14 my-3 bg-gray-800 w-40 h-12 rounded hover:scale-110 transition-transform  text-center   text-white'>
+                            <ContactButton text='Contáctanos' />
+                        </div>
             </div>
         </div>
             

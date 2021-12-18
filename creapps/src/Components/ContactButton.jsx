@@ -1,12 +1,12 @@
 import React from 'react'
 
-const ContactButton = () => {
+const ContactButton = ({ text }) => {
     return (
-        <div>
-            <button className='text-center font-bold'>
-                Contáctanos
+        
+            <button  className='text-center font-bold m-3' >
+                {text}
             </button>
-        </div>
+        
     )
 }
 
