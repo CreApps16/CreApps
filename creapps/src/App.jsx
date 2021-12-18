@@ -4,6 +4,10 @@ import Home from './Pages/ESP/home'
 import Planes from './Pages/ESP/Planes'
 import Nosotros from './Pages/ESP/Nosotros'
 import Blog from './Pages/ESP/Blog'
+import Home2 from './Pages/ENG/home'
+import Plans from './Pages/ENG/Planes'
+import Aboutus from './Pages/ENG/Nosotros'
+import Blog2 from './Pages/ENG/Blog'
 
 
 function App() {
@@ -14,6 +18,10 @@ function App() {
           <Route path='/planes' element={<Planes />} />
           <Route path='/nosotros' element={<Nosotros />} />
           <Route path='/Blog' element={<Blog />} />
+          <Route path='/ENG' element={<Home2 />} />
+          <Route path='/plans' element={<Plans />} />
+          <Route path='/About-us' element={<Aboutus />} />
+          <Route path='/Blog' element={<Blog2 />} />
       </Routes>
     </BrowserRouter>
         

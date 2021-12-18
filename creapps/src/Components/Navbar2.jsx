@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
-import ContactButton from '../Components/ContactButton'
+import ContactButton from './ContactButton'
 
 const Navbar = () => {
     return (
@@ -13,9 +13,9 @@ const Navbar = () => {
             </div>
 
             <div className='flex flex-row'>
-                <Link to='/ENG'><button><i className='fas fa-globe-americas'/>ENG</button></Link> 
+                <Link to='/'><button><i className='fas fa-globe-americas'/>ESP</button></Link> 
                 <div  className='ml-14 my-3 bg-gray-800 w-40 h-12 rounded hover:scale-110 transition-transform  text-center   text-white'>
-                    <ContactButton text='Contáctanos' />
+                    <ContactButton text='Contact us' />
                 </div>
             </div>
                 
@@ -29,8 +29,8 @@ const Navbar = () => {
 const NavbarLinks = () =>{
     return(
         <ul className='flex flex-nowrap auto-rows-auto justify-items-center content-between p-5 self-auto text-10xl  '>
-            <NavbarRoute to='/planes' title='Planes' />
-            <NavbarRoute to='/nosotros' title='Nosotros' />
+            <NavbarRoute to='/plans' title='Plans' />
+            <NavbarRoute to='/about-us' title='About-us' />
             <NavbarRoute to='/blog' title='Blog' />
             <NavbarRoute to='' title='' />
             
