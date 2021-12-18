@@ -2,6 +2,10 @@ import React from 'react'
 import Banner from 'Components/Banner';
 import Navbar from 'Components/Navbar';
 import ContactButton from 'Components/ContactButton';
+import Movil from 'Media/movil.png';
+import Web from 'Media/web.png';
+import Diu from 'Media/diseno_iu.png';
+import Pdigitales from 'Media/productos-digitales.png';
 
 const Planes = () => {
     return (
@@ -103,12 +107,76 @@ const Planes = () => {
                         </div>
 
                     </div>
+
+                    <h1 className='text-center text-3xl mt-20 font-bold text-gray-800'>
+                        Desarrollo de Software
+                    </h1>
+                    <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
+
+                        <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                            <div className='flex flex-col col-span-3 '>
+                                <div>
+                                    <img src={Movil} alt='imagen de movil' className='p-7'></img>
+                                    <div className='text-center mb-6 font-bold text-2xl'>
+                                        <br />
+                                        App Moviles
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                            <div className='flex flex-col col-span-3 '>
+                                <div>
+                                    <img src={Web} alt='imagen de movil' className='p-7'></img>
+                                    <div className='text-center mb-6 font-bold text-2xl'>
+                                        <br />
+                                        Aplicaciones Web
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                            <div className='flex flex-col col-span-3 '>
+                                <div>
+                                    <img src={Diu} alt='imagen de movil' className='p-7'></img>
+                                    <div className='text-center mb-6 font-bold text-2xl'>
+                                        <br />
+                                        Diseno de Interfaces de Usuario (UI)
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
+                        
+                        <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
+                            <div className='flex flex-col col-span-3 '>
+                                <div>
+                                    <img src={Pdigitales} alt='imagen de movil' className='p-7'></img>
+                                    <div className='text-center mb-6 font-bold text-2xl'>
+                                        <br />
+                                        Desarrollo de Productos Digitales
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    
+                    </div>         
+                                            
+
                     
+            </div>
 
                         
 
                 
-            </div>
 
 
             

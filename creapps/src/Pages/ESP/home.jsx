@@ -7,7 +7,8 @@ const Home = () => {
         <div className='font-["verdana"]'>
             <Navbar/>
             <Banner
-                text='Hola soy el texto en la pagina home'
+                title='Contrata un Equipo de Desarrollo Manejado por CreApps'
+                text='Para desarrollar tu plataforma web o ecommerce. Rápido y fácil.'
             
             /> 
             <div>
