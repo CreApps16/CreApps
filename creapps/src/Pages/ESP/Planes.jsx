@@ -25,7 +25,7 @@ const Planes = () => {
                             <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
                                 <div className='flex flex-col col-span-3 '>
                                     <div>
-                                        <div className='text-center font-bold text-2xl'>
+                                        <div className='text-center font-bold text-2xl p-4'>
                                             Plan
                                             <br />
                                             Startup
@@ -54,7 +54,7 @@ const Planes = () => {
                             <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10'>
                                 <div className='flex flex-col col-span-3 '>
                                     <div>
-                                        <div className='text-center font-bold text-2xl'>
+                                        <div className='text-center font-bold text-2xl p-4'>
                                             Plan
                                             <br />
                                             Scaleup
@@ -83,7 +83,7 @@ const Planes = () => {
                             <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10'>
                                 <div className='flex flex-col col-span-3 '>
                                     <div>
-                                        <div className='text-center font-bold text-2xl'>
+                                        <div className='text-center font-bold text-2xl p-4'>
                                             Plan
                                             <br />
                                             CreApp

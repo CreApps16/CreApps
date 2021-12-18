@@ -6,7 +6,7 @@ import Movil from 'Media/movil.png';
 import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
-import Footer2 from 'Components/Footer';
+import Footer2 from 'Components/Footer2';
 
 const Planes = () => {
     return (
@@ -25,7 +25,7 @@ const Planes = () => {
                                 <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
                                     <div className='flex flex-col col-span-3 '>
                                         <div>
-                                            <div className='text-center font-bold text-2xl'>
+                                            <div className='text-center font-bold text-2xl p-4'>
                                                 Startup
                                                 <br />
                                                 Plan
@@ -54,7 +54,7 @@ const Planes = () => {
                                 <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10'>
                                     <div className='flex flex-col col-span-3 '>
                                         <div>
-                                            <div className='text-center font-bold text-2xl'>
+                                            <div className='text-center font-bold text-2xl p-4'>
                                                 Scaleup
                                                 <br />
                                                 Plan
@@ -83,7 +83,7 @@ const Planes = () => {
                                 <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10'>
                                     <div className='flex flex-col col-span-3 '>
                                         <div>
-                                            <div className='text-center font-bold text-2xl'>
+                                            <div className='text-center font-bold text-2xl p-4'>
                                                 CreApp
                                                 <br />
                                                 Plan
