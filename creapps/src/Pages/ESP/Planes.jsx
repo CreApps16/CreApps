@@ -5,16 +5,17 @@ import ContactButton from 'Components/ContactButton';
 
 const Planes = () => {
     return (
-        <div className='font-["verdana"]'>
+        <div>
             <Navbar/>
+           <div className='bg-gray-200 font-["verdana"]'>
             <Banner 
                 title='Planes'
                 text='Cientos de empresas han transformado sus negocios con nuestros servicios.'
             
             />
             <div className='bg-gray-200 h-full'>
-                    <h1 className='text-center text-3xl  font-bold text-gray-800'>
-                        Conoce nuestros planes de equipos sobre demanda
+                    <h1 className='text-center text-3xl mt-10 font-bold text-gray-800'>
+                        Conoce nuestros planes sobre demanda
                     </h1>
                     <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
 
@@ -111,7 +112,9 @@ const Planes = () => {
 
 
             
+        </div> 
         </div>
+        
     )
 }
 
