@@ -144,7 +144,7 @@ const Planes = () => {
                                         <img src={Diu} alt='imagen de movil' className='p-7'></img>
                                         <div className='text-center mb-6 font-bold text-2xl'>
                                             <br />
-                                            Diseno de Interfaces de Usuario (UI)
+                                            Diseño de Interfaces de Usuario (UI)
                                             <br />
                                         </div>
                                     </div>

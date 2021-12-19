@@ -12,8 +12,8 @@ const Navbar = () => {
                 <NavbarLinks/>
             </div>
 
-            <div className='flex flex-row'>
-                <Link to='/ENG'><button><i className='fas fa-globe-americas'/>ENG</button></Link> 
+            <div className='flex flex-row justify-items-center'>
+                <Link to='/ENG'><button className='justify-items-center text-center border-gray-800 rounded-lg m-3 p-2 border-2 font-bold'><i className='fas fa-globe-americas'/>ENG</button></Link> 
                 <div  className='ml-14 my-3 bg-gray-800 w-40 h-12 rounded hover:scale-110 transition-transform  text-center   text-white'>
                     <ContactButton text='Contáctanos' />
                 </div>

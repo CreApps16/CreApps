@@ -13,7 +13,7 @@ const Navbar = () => {
             </div>
 
             <div className='flex flex-row'>
-                <Link to='/'><button><i className='fas fa-globe-americas'/>ESP</button></Link> 
+                <Link to='/'><button className='justify-items-center text-center m-3 p-2 border-2 border-gray-800 rounded-lg font-bold'><i className='fas fa-globe-americas'/>ESP</button></Link> 
                 <div  className='ml-14 my-3 bg-gray-800 w-40 h-12 rounded hover:scale-110 transition-transform  text-center   text-white'>
                     <ContactButton text='Contact us' />
                 </div>
