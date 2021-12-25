@@ -7,6 +7,7 @@ import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
 import Footer from 'Components/Footer';
+import Payment from 'Media/payment.jpg'
 
 const Planes = () => {
     return (
