@@ -1,6 +1,5 @@
 import React from 'react'
 import ContactButton from 'Components/ContactButton';
-import Payment from 'Media/payment.jpg'
 
 
 
