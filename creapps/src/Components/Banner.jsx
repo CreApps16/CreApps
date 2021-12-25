@@ -4,7 +4,7 @@ import Payment from 'Media/payment.jpg'
 
 
 
-const Banner = ( { title, text } ) => {
+const Banner = ( { title, text, image } ) => {
     return (
         <div>
             <div className='w-row'>
@@ -20,7 +20,7 @@ const Banner = ( { title, text } ) => {
 
                     </div>
                     <div className='bg-blue-300 my-4 mx-20 w-60 ml-0 mr-40'>
-                    <img src={Payment} alt="imagen de pagos" />
+                    {image}
                     </div>
 
                 </div>

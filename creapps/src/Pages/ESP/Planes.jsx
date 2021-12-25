@@ -16,7 +16,8 @@ const Planes = () => {
             <div className='bg-gray-200 font-["verdana"]'>
                 <Banner 
                     title='Planes'
-                    text='Cientos de empresas han transformado sus negocios con nuestros servicios.'/>
+                    text='Cientos de empresas han transformado sus negocios con nuestros servicios.'
+                    image={Payment}/>
                 <div className='bg-gray-200 h-full'>
                         <h1 className='text-center text-3xl mt-10 font-bold text-gray-800'>
                             Conoce nuestros planes sobre demanda
