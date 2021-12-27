@@ -7,8 +7,7 @@ import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
 import Footer2 from 'Components/Footer2';
-import Payment from 'Media/payment.jpg'
-
+import Puzzle from 'Media/puzzle.jpg'
 
 const Planes = () => {
     return (
@@ -18,7 +17,7 @@ const Planes = () => {
                 <Banner2 
                     title='Plans & Pricing'
                     text='Your success is our success. Our teams work hard to deliver on the most demanding projects.'
-                    image={Payment}/>
+                    image={Puzzle}/>
                 <div className='bg-gray-200 h-full'>
                             <h1 className='text-center text-3xl mt-10 font-bold text-gray-800'>
                             Our plans provide flexibility and value

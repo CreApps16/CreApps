@@ -7,7 +7,7 @@ import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
 import Footer from 'Components/Footer';
-import Payment from 'Media/payment.jpg'
+import Puzzle from 'Media/puzzle.jpg'
 
 const Planes = () => {
     return (
@@ -17,7 +17,7 @@ const Planes = () => {
                 <Banner 
                     title='Planes'
                     text='Cientos de empresas han transformado sus negocios con nuestros servicios.'
-                    image={Payment}/>
+                    image={Puzzle}/>
                 <div className='bg-gray-200 h-full'>
                         <h1 className='text-center text-3xl mt-10 font-bold text-gray-800'>
                             Conoce nuestros planes sobre demanda
