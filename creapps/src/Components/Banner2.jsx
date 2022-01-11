@@ -18,8 +18,8 @@ const Banner = ( { title, text, image } ) => {
                         </div>
 
                     </div>
-                    <div className='bg-blue-300 my-4 mx-20 w-60 ml-0 mr-40'>
-                        <img src={image} alt="imagen en el banner" />
+                    <div className='my-14 mx-20 w-120 h-60 mr-40 rounded'>
+                        <img className=' w-120 h-60 rounded-xl m-2 mr-8' src={image} alt="imagen en el banner" /> 
                     </div>
 
                 </div>

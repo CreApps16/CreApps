@@ -29,9 +29,9 @@ const Navbar = () => {
 const NavbarLinks = () =>{
     return(
         <ul className='flex flex-nowrap auto-rows-auto justify-items-center content-between p-5 self-auto text-10xl  '>
-            <NavbarRoute to='/plans' title='Plans' />
-            <NavbarRoute to='/about-us' title='About-us' />
-            <NavbarRoute to='/blog' title='Blog' />
+            <NavbarRoute to='/ENG/plans' title='Plans' />
+            <NavbarRoute to='/ENG/about-us' title='About us' />
+            <NavbarRoute to='/ENG/blog' title='Blog' />
             <NavbarRoute to='' title='' />
             
 

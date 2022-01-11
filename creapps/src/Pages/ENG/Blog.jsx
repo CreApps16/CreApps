@@ -1,21 +1,24 @@
 import React from 'react'
 import Banner2 from 'Components/Banner2.jsx';
 import Navbar2 from 'Components/Navbar2.jsx';
+import imagenblog from 'Media/imagenblog.png'
 
-const Blog = () => {
+
+const Blog2 = () => {
     return (
         <div className='font-["verdana"]'>
             <Navbar2/>
             <Banner2 
                 title='Blog'
-                text='Contenido sobre tecnología, startups, negocios y mucho más.'
+                text='Content on technology, startups, business, and much more.'
+                image={imagenblog}
                 />
             
             <div>
-                Hola soy la informacion de la pagina Blog.
+            Hello i'm the Blog information page
             </div>
         </div>
     )
 }
 
-export default Blog
+export default Blog2

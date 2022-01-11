@@ -19,9 +19,9 @@ function App() {
           <Route path='/nosotros' element={<Nosotros />} />
           <Route path='/Blog' element={<Blog />} />
           <Route path='/ENG' element={<Home2 />} />
-          <Route path='/plans' element={<Plans />} />
-          <Route path='/About-us' element={<Aboutus />} />
-          <Route path='/Blog' element={<Blog2 />} />
+          <Route path='/ENG/plans' element={<Plans />} />
+          <Route path='/ENG/About-us' element={<Aboutus />} />
+          <Route path='/ENG/Blog' element={<Blog2 />} />
       </Routes>
     </BrowserRouter>
         

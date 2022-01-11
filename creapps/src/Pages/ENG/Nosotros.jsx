@@ -7,12 +7,12 @@ const Nosotros = () => {
         <div className='font-["verdana"]'>
             <Navbar2/>
             <Banner2
-                title='Nosotros' 
-                text='Empezamos con la misión de llevarle tecnología a cualquier empresa grande o pequeña.'
+                title='About us' 
+                text='we started in 2022, with the purpose of creating and developing any application for small businesses and startups'
             
             />
             <div >
-                Hola soy la informacion de la pagina Nosotros
+                Hello i'm the about us information page
             </div>
         </div>
     )
