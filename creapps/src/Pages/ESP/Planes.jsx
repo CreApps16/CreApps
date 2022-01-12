@@ -112,7 +112,7 @@ const Planes = () => {
                         <h1 className='text-center text-3xl mt-20 font-bold text-gray-800'>
                             Desarrollo de Software
                         </h1>
-                        <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
+                        <div className='flex flex-row justify-center space-x-12 mt-16 h-full mx-8 '>
 
                             <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
                                 <div className='flex flex-col col-span-3 '>
@@ -153,9 +153,6 @@ const Planes = () => {
                                 </div>
                             </div>
 
-                        </div>
-                        <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
-                            
                             <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
                                 <div className='flex flex-col col-span-3 '>
                                     <div>
@@ -168,8 +165,8 @@ const Planes = () => {
                                     </div>
                                 </div>
                             </div>
-                                        
-                        </div>         
+                        </div>
+                                 
                                                 
 
                         

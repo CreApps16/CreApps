@@ -35,7 +35,7 @@ const Home = () => {
                     <h3 className='text-2xl px-40'>
                     Small and medium sized businesses use software to reduce costs, optimize processes and drive growth. We provide on demand teams on a flexible contract to develop all your software needs.
                     </h3>
-                    <div className='flex flex-nowrap justify-center space-x-24 mt-16 h-full '>
+                    <div className='flex flex-row justify-center space-x-12 mt-16 h-full '>
 
                                 <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
                                     <div className='flex flex-col col-span-3 '>
@@ -89,7 +89,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                            </div>
+                    </div>
                 </div>
             </div>
 
