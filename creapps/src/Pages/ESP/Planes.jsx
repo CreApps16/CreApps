@@ -11,13 +11,14 @@ import Puzzle from 'Media/puzzle.jpg'
 
 const Planes = () => {
     return (
-        <div>
+        <div className='font-["verdana"] w-full'>
             <Navbar/>
             <div className='bg-gray-200 font-["verdana"]'>
                 <Banner 
                     title='Planes'
                     text='Cientos de empresas han transformado sus negocios con nuestros servicios.'
                     image={Puzzle}/>
+
                 <div className='bg-gray-200 h-full'>
                         <h1 className='text-center text-3xl mt-10 font-bold text-gray-800'>
                             Conoce nuestros planes sobre demanda

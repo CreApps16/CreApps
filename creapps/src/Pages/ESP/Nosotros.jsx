@@ -4,7 +4,7 @@ import React from 'react';
 
 const Nosotros = () => {
     return (
-        <div className='font-["verdana"]'>
+        <div className='font-["verdana"] w-full'>
             <Navbar/>
             <Banner
                 title='Nosotros' 

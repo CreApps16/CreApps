@@ -4,7 +4,7 @@ import ContactButton from './ContactButton'
 
 const Navbar = () => {
     return (
-        <div className='flex flex-nowrap justify-center space-x-24 my-0 text-10xl '>
+        <div className='flex flex-row justify-center space-x-24 my-0 text-10xl w-full  '>
             <div className=' self-auto m-2'>
                 Aqui va el logo
             </div>
@@ -12,9 +12,9 @@ const Navbar = () => {
                 <NavbarLinks/>
             </div>
 
-            <div className='flex flex-row'>
-                <Link to='/'><button className='justify-items-center text-center m-3 p-2 border-2 border-gray-800 rounded-lg font-bold'><i className='fas fa-globe-americas'/>ESP</button></Link> 
-                <div  className='ml-14 my-3 bg-gray-800 w-40 h-12 rounded hover:scale-110 transition-transform  text-center   text-white'>
+            <div className='flex flex-row justify-end w-full'>
+                <Link to='/'><button className='justify-items-center h-12 text-center border-gray-800 rounded-lg m-3 p-2 border-2 font-bold'><i className='fas fa-globe-americas'/>ESP</button></Link> 
+                <div  className='ml-6 my-3 mr-8 bg-gray-800 w-30 h-12 rounded hover:scale-110 transition-transform justify-items-center text-center   text-white'>
                     <ContactButton text='Contact us' />
                 </div>
             </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
 
 const NavbarLinks = () =>{
     return(
-        <ul className='flex flex-nowrap auto-rows-auto justify-items-center content-between p-5 self-auto text-10xl  '>
+        <ul className='flex flex-nowrap auto-rows-auto justify-items-center text-center content-between p-5 self-auto text-10xl  '>
             <NavbarRoute to='/ENG/plans' title='Plans' />
             <NavbarRoute to='/ENG/about-us' title='About us' />
             <NavbarRoute to='/ENG/blog' title='Blog' />

@@ -6,21 +6,19 @@ import Movil from 'Media/movil.png';
 import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
+import business from 'Media/business.png'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className='font-["verdana"]'>
+        <div className='font-["verdana"] w-full'>
             <Navbar/>
             <Banner
                 title='Contrata un Equipo de Desarrollo Manejado por CreApps'
                 text='Para desarrollar tu plataforma web o ecommerce. Rápido y fácil.'
-            
+                image={business}
             /> 
-            {/* <div>
-                Hola soy la pagina de ahora desplegada y con el nuevo nombre! 
-
-            </div> */}
+            
             <div className='bg-blue-100 text-center p-10 '>
                 <div>
                     <div className='flex flex-row p-6 ml-24'>

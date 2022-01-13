@@ -6,16 +6,18 @@ import Movil from 'Media/movil.png';
 import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
+import business from 'Media/business.png'
+
 import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className='font-["verdana"]'>
+        <div className='font-["verdana"] w-full'>
             <Navbar2/>
             <Banner2
                 title='Hire an Experienced Software Development Team'
                 text='To build your web platform or ecommerce. Fast, easy, reliable.'
-            
+                image={business}
             /> 
             {/* <div className='w-full h-full'>
                 Hi this is the English page! 

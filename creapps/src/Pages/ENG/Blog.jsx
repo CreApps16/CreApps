@@ -6,7 +6,7 @@ import imagenblog from 'Media/imagenblog.png'
 
 const Blog2 = () => {
     return (
-        <div className='font-["verdana"]'>
+        <div className='font-["verdana"] w-full'>
             <Navbar2/>
             <Banner2 
                 title='Blog'

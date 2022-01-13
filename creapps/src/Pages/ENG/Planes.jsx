@@ -11,7 +11,7 @@ import Puzzle from 'Media/puzzle.jpg'
 
 const Planes = () => {
     return (
-        <div>
+        <div className='font-["verdana"] w-full'>
             <Navbar2/>
            <div className='bg-gray-200 font-["verdana"]'>
                 <Banner2 
