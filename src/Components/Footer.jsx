@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactButton from '../Components/ContactButton'
 import { NavLink } from 'react-router-dom'
+import Logo2 from './Logo2'
 
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className=' bg-gray-600 '>
             <div className='flex flex-nowrap justify-center h-40 space-x-24 my-0 text-10xl'>
                 <div className=' self-auto m-2 mt-5'>
-                    Aqui va el logo
+                    <Logo2/>
                 </div>
                 <div className='mt-5'>
                     <NavbarLinks/>

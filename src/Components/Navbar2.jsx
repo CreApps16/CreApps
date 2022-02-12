@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import ContactButton from './ContactButton'
+import Logo1 from './Logo1';
+
 
 const Navbar = () => {
     return (
         <div className='flex flex-row justify-center space-x-24 my-0 text-10xl w-full  '>
             <div className=' self-auto m-2'>
-                Aqui va el logo
+            <Logo1/>
             </div>
             <div>
                 <NavbarLinks/>

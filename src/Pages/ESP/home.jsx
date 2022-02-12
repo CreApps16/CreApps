@@ -6,7 +6,7 @@ import Movil from 'Media/movil.png';
 import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
-import business from 'Media/business.png'
+import Creapps from 'Media/2.png'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
             <Banner
                 title='Contrata un Equipo de Desarrollo Manejado por CreApps'
                 text='Para desarrollar tu plataforma web o ecommerce. Rápido y fácil.'
-                image={business}
+                image={Creapps}
             /> 
             
             <div className='bg-blue-100 text-center p-10 '>
@@ -88,7 +88,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                            </div>
+                    </div>
                 </div>
             </div>
             <Footer/>
