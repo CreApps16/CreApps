@@ -8,6 +8,7 @@ import Home2 from './Pages/ENG/home'
 import Plans from './Pages/ENG/Planes'
 import Aboutus from './Pages/ENG/Nosotros'
 import Blog2 from './Pages/ENG/Blog'
+import NoPage from 'Pages/NoPage';
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Route path='/ENG/plans' element={<Plans />} />
           <Route path='/ENG/About-us' element={<Aboutus />} />
           <Route path='/ENG/Blog' element={<Blog2 />} />
+          <Route path="/*" element={<NoPage />} />
+
       </Routes>
     </BrowserRouter>
         
