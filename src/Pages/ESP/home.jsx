@@ -8,10 +8,11 @@ import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
 import Creapps from 'Media/2.png'
 import { Link } from 'react-router-dom';
+import Infocard from 'Components/Infocard';
 
 const Home = () => {
     return (
-        <div className='font-["verdana"] w-full'>
+        <div className='font-["verdana"] flex flex-col w-full overflow-x-hidden overflow-y-hidden rounded-lg'>
             <Navbar/>
             <Banner
                 title='Contrata un Equipo de Desarrollo Manejado por CreApps'
@@ -19,77 +20,40 @@ const Home = () => {
                 image={Creapps}
             /> 
             
-            <div className='bg-blue-100 text-center p-10 '>
-                <div>
-                    <div className='flex flex-row p-6 ml-24'>
-                        <h1 className=' font-bold text-4xl p-2 m-3 text-gray-800'>
+            <div className='bg-blue-100 text-center p-4 sm:p-6 '>
+                
+                    <div className='flex flex-col sm:flex sm:flex-row p-2 sm:w-fit m-auto sm:place-items-start'>
+                        <h1 className=' font-bold sm:text-4xl text-4xl sm:w-fit m-auto   text-gray-800 text-shadow-xl'>
                             Nuestros Servicios
                         </h1>
-                        <div className=' font-extrabold text-2xl p-2 ml-0 m-6 text-orange-500'>
-                            <Link to='/planes'><button>Explorar ></button></Link>
+                        <div className=' font-extrabold text-2xl sm:w-fit mx-auto sm:mx-4 mt-3 text-orange-500'>
+                            <button><Link to='/planes'>Explorar ></Link></button>
                         </div>
 
                     </div>
 
-                    <h3 className='text-2xl px-40'>
+                    <h3 className='text-xl text-left sm:text-2xl sm:mt-4 sm:px-40'>
                     Las pequeñas y medianas empresas utilizan software para reducir costos, optimizar procesos e impulsar el crecimiento. Proporcionamos equipos bajo demanda con un contrato flexible para desarrollar todas sus necesidades de software.
                     </h3>
-                    <div className='flex flex-row justify-center space-x-12 mt-16 h-full '>
+                    <div className='flex flex-col sm:flex sm:flex-row sm:justify-evenly w-full sm:w-full sm:space-x-11 mt-16 h-full sm:h-full '>
 
-                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
-                                    <div className='flex flex-col col-span-3 '>
-                                        <div>
-                                            <img src={Movil} alt='imagen de movil' className='p-7'></img>
-                                            <div className='text-center mb-6 font-bold text-2xl p-5'>
-                                                <br />
-                                                Aplicaciones Móviles
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
-                                    <div className='flex flex-col col-span-3 '>
-                                        <div>
-                                            <img src={Web} alt='imagen de movil' className='p-7'></img>
-                                            <div className='text-center mb-6 font-bold text-2xl p-5'>
-                                                <br />
-                                                Aplicaciones Web/Plataformas
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
-                                    <div className='flex flex-col col-span-3 '>
-                                        <div>
-                                            <img src={Diu} alt='imagen de movil' className='p-7'></img>
-                                            <div className='text-center mb-6 font-bold text-2xl p-5'>
-                                                <br />
-                                                Diseño de Interfaces de Usuario (UI)
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
-                                    <div className='flex flex-col col-span-3 '>
-                                        <div>
-                                            <img src={Pdigitales} alt='imagen de movil' className='p-7'></img>
-                                            <div className='text-center mb-6 font-bold text-2xl p-5'>
-                                                <br />
-                                                Desarrollo de Productos Digitales
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                <Infocard
+                                image={Movil}
+                                text='Aplicaciones Móviles'
+                                />
+                                <Infocard
+                                image={Web}
+                                text='Aplicaciones Web/Plataformas'
+                                />
+                                <Infocard
+                                image={Diu}
+                                text='Diseño de Interfaces de Usuario (UX/UI)'
+                                />
+                                <Infocard
+                                image={Pdigitales}
+                                text='Desarrollo de Productos Digitales    '
+                                />
                     </div>
-                </div>
             </div>
             <Footer/>
         </div>
