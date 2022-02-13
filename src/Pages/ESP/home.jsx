@@ -6,7 +6,7 @@ import Movil from 'Media/movil.png';
 import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
-import Creapps from 'Media/2.png'
+import Creapps from 'Media/1color.png'
 import { Link } from 'react-router-dom';
 import Infocard from 'Components/Infocard';
 

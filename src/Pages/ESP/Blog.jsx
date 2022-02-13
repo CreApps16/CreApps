@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from 'Components/Banner.jsx';
 import Navbar from 'Components/Navbar.jsx';
-import imagenblog from 'Media/imagenblog.png'
+import Blog1 from 'Media/blog.png'
 
 const Blog = () => {
     return (
@@ -10,7 +10,7 @@ const Blog = () => {
             <Banner 
                 title='Blog'
                 text='Contenido sobre tecnología, startups, negocios y mucho más.'
-                image={imagenblog}
+                image={Blog1}
                 />
             
             <div>

@@ -1,6 +1,7 @@
 import Banner2 from 'Components/Banner2';
 import Navbar2 from 'Components/Navbar2';
 import React from 'react';
+import Nosotros1 from 'Media/nosotros.png'
 
 const Nosotros = () => {
     return (
@@ -9,7 +10,7 @@ const Nosotros = () => {
             <Banner2
                 title='About us' 
                 text='we started in 2022, with the purpose of creating and developing any application for small businesses and startups'
-            
+                image={Nosotros1}
             />
             <div >
                 Hello i'm the about us information page

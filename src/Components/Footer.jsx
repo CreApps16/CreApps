@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Logo2 from 'Media/creappsblanco.png'
+import Logo2 from './Logo2'
 
 
 const whatsapp = 'https://wa.me/573028473311/?text=Hola!,%20me%20interesa%20recibir%20informacion%20de%20analisis%20agronomico';
@@ -13,7 +13,7 @@ const Footer = () => {
             
 
                 <div className='Logo w-auto h-fit justify-center  sm:justify-start'> 
-                    <img className='w-30 h-20 mt-2 m-auto p-1 text-center sm:w-39 sm:h-28 ' src={Logo2} alt="Logo Laboratorio" />
+                    <img className='w-30 h-20 mt-2 m-auto p-1 text-center sm:w-39 sm:h-28 ' src={Logo2} alt="Logo ProgrammingApps" />
                 </div>
 
                 <div className='Links text-center sm:text-3xl sm:text-center mt-2 sm:h-24 sm:w-130 sm:justify-evenly'>

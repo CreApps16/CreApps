@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from 'Media/creappscolor.png'
+import Logo from 'Media/prograppscolor.png'
 import { Link } from 'react-router-dom'
 
 

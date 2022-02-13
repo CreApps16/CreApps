@@ -7,7 +7,7 @@ import Web from 'Media/web.png';
 import Diu from 'Media/diseno_iu.png';
 import Pdigitales from 'Media/productos-digitales.png';
 import Footer from 'Components/Footer';
-import Puzzle from 'Media/puzzle.jpg'
+import Billing from 'Media/billing.png'
 import Infocard from 'Components/Infocard';
 
 
@@ -19,7 +19,7 @@ const Planes = () => {
                 <Banner 
                     title='Planes'
                     text='Cientos de empresas han transformado sus negocios con nuestros servicios.'
-                    image={Puzzle}/>
+                    image={Billing}/>
 
                 <div className='bg-gray-200 sm:h-full'>
                         <h1 className='text-center text-2xl sm:text-3xl mt-10 font-bold text-gray-800'>
