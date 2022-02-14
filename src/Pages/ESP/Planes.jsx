@@ -15,13 +15,13 @@ const Planes = () => {
     return (
         <div className='font-["verdana"] flex flex-col w-full overflow-x-hidden overflow-y-hidden rounded-lg'>
             <Navbar/>
-            <div className='bg-gray-200 font-["verdana"]'>
+            <div className='bg-blue-100 font-["verdana"]'>
                 <Banner 
                     title='Planes'
                     text='Cientos de empresas han transformado sus negocios con nuestros servicios.'
                     image={Billing}/>
 
-                <div className='bg-gray-200 sm:h-full'>
+                <div className='bg-blue-100 sm:h-full'>
                         <h1 className='text-center text-2xl sm:text-3xl mt-10 font-bold text-gray-800'>
                             Conoce nuestros planes sobre demanda
                         </h1>
@@ -49,7 +49,7 @@ const Planes = () => {
                                             1 Desarrollador FullStack Jr.
                                         </p>
                                         <br />
-                                        <div  className='mx-auto my-3 mb-8 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
+                                        <div  className='mx-auto sm:mx-auto my-3 sm:my-3 mb-8 sm:b-8 w-40 sm:w-40 h-18 sm:h-20 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
                                             <ContactButton text='Contratar este plan' />
                                         </div>
 
@@ -78,7 +78,7 @@ const Planes = () => {
                                             1 Desarrollador FullStack Jr.
                                         </p>
                                         <br />
-                                        <div  className='mx-auto my-3 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
+                                        <div  className='mx-auto sm:mx-auto my-3 sm:my-3 mb-8 sm:b-8 w-40 sm:w-40 h-18 sm:h-20 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
                                             <ContactButton text='Contratar este plan' />
                                         </div>
 
@@ -102,7 +102,7 @@ const Planes = () => {
                                             
                                         </p>
                                         <br />
-                                        <div  className='mx-auto my-3 bg-gray-800 w-40 h-18 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
+                                        <div  className='mx-auto sm:mx-auto my-3 sm:my-3 mb-8 sm:b-8 w-40 sm:w-40 h-18 sm:h-20 rounded-lg hover:scale-110 transition-transform  text-center   text-white'>
                                             <ContactButton text='Solicitar información' />
                                         </div>
 

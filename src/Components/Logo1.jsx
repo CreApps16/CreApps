@@ -7,7 +7,7 @@ const Logo1 = () => {
   return (
     <div >
       <Link to='/'>
-        <img className='sm:w-96 sm:h-auto sm:ml-8' src={Logo} alt="Logo CreApps" />
+        <img className='sm:w-96 sm:h-auto sm:mx-auto ' src={Logo} alt="Logo CreApps" />
       </Link>
         
     </div>

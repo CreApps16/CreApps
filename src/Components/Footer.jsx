@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Logo2 from './Logo2'
+import Logo2 from 'Media/prograppsblanco.png'
 
 
 const whatsapp = 'https://wa.me/573028473311/?text=Hola!,%20me%20interesa%20recibir%20informacion%20de%20analisis%20agronomico';
@@ -16,7 +16,7 @@ const Footer = () => {
                     <img className='w-30 h-20 mt-2 m-auto p-1 text-center sm:w-39 sm:h-28 ' src={Logo2} alt="Logo ProgrammingApps" />
                 </div>
 
-                <div className='Links text-center sm:text-3xl sm:text-center mt-2 sm:h-24 sm:w-130 sm:justify-evenly'>
+                <div className='Links text-center sm:text-3xl sm:text-center mt-2 sm:mt-5 sm:h-24 sm:w-130 sm:justify-evenly'>
                     <NavbarLinks/>
                 </div>
 
@@ -56,7 +56,7 @@ const Footer = () => {
 
 const NavbarLinks = () =>{
     return(
-        <ul className='flex flex-col sm:flex-row space-y-2 sm:space-x-6 sm:tex-center text-md  '>
+        <ul className='flex flex-col  sm:flex-row  sm:space-x-6 sm:tex-center text-md  '>
             <NavbarRoute to='/planes' title='Planes' />
             <NavbarRoute to='/nosotros' title='Nosotros' />
             <NavbarRoute to='/blog' title='Blog' />
@@ -66,7 +66,7 @@ const NavbarLinks = () =>{
 
 const NavbarRoute = ({to, title, icon})=>{
     return (
-      <li>
+      <li className='text-center flex flex-col'>
         <NavLink
           to={to}
           className={({ isActive }) =>

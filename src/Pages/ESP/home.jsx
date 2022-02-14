@@ -13,6 +13,7 @@ import Infocard from 'Components/Infocard';
 const Home = () => {
     return (
         <div className='font-["verdana"] flex flex-col w-full overflow-x-hidden overflow-y-hidden rounded-lg'>
+            
             <Navbar/>
             <Banner
                 title='Contrata un Equipo de Desarrollo Manejado por CreApps'

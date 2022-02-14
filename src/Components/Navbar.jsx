@@ -5,7 +5,7 @@ import Logo1 from './Logo1';
 
 const Navbar = () => {
     return (
-        <div className='Navbar w-full m-auto flex flex-col sm:flex sm:flex-row sm:m-auto sm:h-fit sm:place-items-center'>
+        <div className='Navbar w-full m-auto sm:p-3 flex flex-col sm:flex sm:flex-row sm:m-auto sm:h-fit sm:place-items-center  bg-white'>
             
                 <Logo1/>
                 <div className='Links1 sm:w-full h-fit'>
@@ -13,7 +13,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='flex flex-row place-items-center m-auto sm:w-fit sm:place-items-center sm:justify-end  '>
-                    <button className='justify-items-center h-12 text-center border-gray-800 rounded-lg  sm:m-auto sm:ml-4 border-2 font-bold'><i className='fas fa-globe-americas'/><Link to='/ENG'>ENG</Link></button> 
+                <Link to='/ENG'><button className='justify-items-center h-12 text-center border-gray-800 rounded-lg sm:p-0.4   sm:m-auto sm:ml-4 border-2 font-bold'><i className='fas fa-globe-americas'/>ENG</button></Link> 
                     <ContactButton text='Contáctanos'/>
                 </div>
 

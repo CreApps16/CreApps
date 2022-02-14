@@ -20,18 +20,6 @@ const Banner = ( { title, text, image } ) => {
                 <img className='w-full h-full sm:w-3/4 sm:h-3/4 sm:p-3 rounded-lg text-center sm:m-auto drop-shadow-xl ' src={image} alt="imagen en el banner" /> 
             </div>
         </div>
-
-                
-
-            
-
-                
-            
-
-                
-
-                    
-
     )
 }
 
