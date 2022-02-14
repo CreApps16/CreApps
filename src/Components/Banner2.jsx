@@ -3,7 +3,7 @@ import ContactButton from 'Components/ContactButton';
 
 
 
-const Banner = ( { title, text, image } ) => {
+const Banner2 = ( { title, text, image } ) => {
     return (
         <div className='flex flex-col sm:flex sm:flex-row items-center m-0 h-70 rounded-t-md bg-gradient-to-r from-cyan-500 to-blue-600 font-["verdana"] w-full '>
             <div className=' flex flex-col w-full p-2 ' >
@@ -16,10 +16,10 @@ const Banner = ( { title, text, image } ) => {
                 </div>
             </div>
             <div className='w-full h-full sm:w-200 sm:h-200 m-auto  text-center justify-center p-4 sm:p-2'>
-                <img className='w-full h-full sm:w-3/4 sm:h-3/4 sm:p-3 rounded-lg text-center sm:m-auto drop-shadow-xl ' src={image} alt="imagen en el banner" /> 
+            <img className=' w-full h-full sm:w-3/4 sm:h-3/4 sm:p-3 rounded-lg text-center sm:m-auto drop-shadow-xl ' src={image} alt="imagen en el banner" /> 
             </div>
         </div>
     )
 }
 
-export default Banner
+export default Banner2

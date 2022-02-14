@@ -33,8 +33,9 @@ const Home = () => {
 
                     </div>
 
-                    <h3 className='text-xl text-left sm:text-2xl sm:mt-4 sm:px-40'>
-                    Las pequeñas y medianas empresas utilizan software para reducir costos, optimizar procesos e impulsar el crecimiento. Proporcionamos equipos bajo demanda con un contrato flexible para desarrollar todas sus necesidades de software.
+                    <h3 className='text-xl text-center sm:text-2xl sm:mt-4 sm:px-40'>
+                    Las pequeñas y medianas empresas utilizan software para reducir costos, optimizar procesos e impulsar el crecimiento. 
+                    Proporcionamos soluciones modernas y ágiles que ayudarán en los procesos de tu negocio.
                     </h3>
                     <div className='flex flex-col sm:flex sm:flex-row sm:justify-evenly w-full sm:w-full sm:space-x-11 mt-16 h-full sm:h-full '>
 

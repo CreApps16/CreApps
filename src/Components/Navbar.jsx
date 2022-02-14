@@ -5,7 +5,7 @@ import Logo1 from './Logo1';
 
 const Navbar = () => {
     return (
-        <div className='Navbar w-full m-auto sm:p-3 flex flex-col sm:flex sm:flex-row sm:m-auto sm:h-fit sm:place-items-center  bg-white'>
+        <div className='Navbar w-full m-auto sm: flex flex-col sm:flex sm:flex-row sm:m-auto sm:h-fit sm:place-items-center  bg-white'>
             
                 <Logo1/>
                 <div className='Links1 sm:w-full h-fit'>
@@ -25,10 +25,11 @@ const Navbar = () => {
 
 const NavbarLinks = () =>{
     return(
-        <div className="flex flex-col justify-around h-36 sm:h-fit sm:flex-row sm:flex  sm:justify-evenly ">
-            <NavbarRoute to='/planes' title='Planes' />
-            <NavbarRoute to='/nosotros' title='Nosotros' />
-            <NavbarRoute to='/blog' title='Blog' />
+        <div className="flex flex-col justify-around h-36 sm:h-fit sm:flex-row sm:flex  sm:justify-evenly  ">
+            <NavbarRoute to='/Planes' title='Planes' />
+            <NavbarRoute to='/Nosotros' title='Nosotros' />
+            <NavbarRoute to='/Clientes' title='Clientes' />
+            <NavbarRoute to='/Blog' title='Blog' />
         </div>
 
     );
@@ -41,8 +42,8 @@ const NavbarRoute = ({to, title, icon})=>{
                 to={to}
                 className={({ isActive }) =>
                 isActive
-                    ? ' navbar-route border-t-2  border-b-2 font-extrabold border-blue-400 text-blue-500'
-                    : ' navbar-route font-bold  text-gray-800 hover:text-blue-500 '
+                    ? ' navbar-route border-t-2  border-b-2 font-extrabold border-blue-400 text-blue-500 '
+                    : ' navbar-route font-bold  text-gray-800 hover:text-blue-500 hover:scale-110 transition-transform'
                 }
             >
             <span className='text-center sm:text-center font-["verdana"] text-xl sm:text-3xl text-shadow-xl'>{title}</span>

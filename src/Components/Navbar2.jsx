@@ -26,18 +26,15 @@ const Navbar = () => {
     )
 }
 
-const NavbarLinks = () =>{
-    return(
-        <ul className='flex flex-col justify-around h-36 sm:h-fit sm:flex-row sm:flex  sm:justify-evenly '>
-            <NavbarRoute to='/ENG/plans' title='Plans' />
-            <NavbarRoute to='/ENG/about-us' title='About us' />
-            <NavbarRoute to='/ENG/blog' title='Blog' />
-            
-            
-
-        </ul>
-
-    );
+const NavbarLinks = () => {
+  return (
+    <ul className="flex flex-col justify-around h-36 sm:h-fit sm:flex-row sm:flex  sm:justify-evenly ">
+      <NavbarRoute to="/ENG/Plans" title="Plans" />
+      <NavbarRoute to="/ENG/About-us" title="About us" />
+      <NavbarRoute to="/ENG/Customers" title="Customers" />
+      <NavbarRoute to="/ENG/Blog" title="Blog" />
+    </ul>
+  );
 };
 
 const NavbarRoute = ({to, title, icon})=>{
@@ -48,7 +45,7 @@ const NavbarRoute = ({to, title, icon})=>{
                 className={({ isActive }) =>
                 isActive
                     ? ' navbar-route border-t-2  border-b-2 font-extrabold border-blue-400 text-blue-500'
-                    : ' navbar-route font-bold  text-gray-800 hover:text-blue-500 '
+                    : ' navbar-route font-bold  text-gray-800 hover:text-blue-500 hover:scale-110 transition-transform'
                 }
             >
                 <span className='text-center sm:text-center font-["verdana"] text-xl sm:text-3xl text-shadow-xl'>{title}</span>
