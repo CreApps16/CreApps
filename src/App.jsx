@@ -24,9 +24,9 @@ function App() {
           <Route path='/ENG/About-us' element={<Aboutus />} />
           <Route path='/ENG/Blog' element={<Blog2 />} />
           <Route path="/*" element={<NoPage />} />
-
       </Routes>
     </BrowserRouter>
+
         
         
 
