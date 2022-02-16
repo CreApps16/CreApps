@@ -23,7 +23,7 @@ const Nosotros = () => {
                             Programming Apps
                         </h1>
                 <h3 className='text-xl text-left sm:text-2xl mt-4 sm:mt-4 sm:px-40 '>
-                    Somos una empresa de Desarrollo de Software y consultoría en proyectos técnlogicos aplicando la tecnologia del desarrollo
+                    Somos una empresa de Desarrollo de Software y consultoría en proyectos técnlogicos aplicando la tecnologica del desarrollo
                     de software en soluciones que se adaptan a las necesidades de nuestros clientes, permitiendoles agilizar sus procesos.
                 </h3>
                     <div className='flex flex-col sm:flex sm:flex-row sm:justify-evenly w-full sm:w-full sm:space-x-11 mt-16 h-full sm:h-full '>

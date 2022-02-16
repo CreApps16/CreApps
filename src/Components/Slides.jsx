@@ -25,7 +25,7 @@ const Slides = () => {
         <img src={image3} alt="" />
       </div>
 
-      
+           
         
 
 

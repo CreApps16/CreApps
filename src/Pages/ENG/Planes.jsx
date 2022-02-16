@@ -20,7 +20,7 @@ const Planes = () => {
                     text='Your success is our success. Our teams work hard to deliver on the most demanding projects.'
                     image={Billing}/>
                 <div className='bg-blue-100 h-full'>
-                            <h1 className='text-center text-2xl sm:text-3xl mt-10 font-bold text-gray-800'>
+                            <h1 className='text-center text-2xl sm:text-3xl pt-5 font-bold text-gray-800'>
                             Our plans provide flexibility and value
                             </h1>
                             <div className='flex flex-col p-3 sm:flex sm:flex-row sm:justify-evenly w-full sm:w-full sm:space-x-11 mt-16 h-full sm:h-full '>
@@ -117,7 +117,7 @@ const Planes = () => {
 
                             <Infocard
                                 image={Movil}
-                                text='Mobil Apps'
+                                text='Mobile Apps'
                                 />
                                 <Infocard
                                 image={Web}

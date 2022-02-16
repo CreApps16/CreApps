@@ -1,9 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Logo2 from 'Components/Logo2'
+import Logo2 from 'Media/prograppsblanco.png'
 
 
-const whatsapp = 'https://wa.me/573028473311/?text=Hola!,%20me%20interesa%20recibir%20informacion%20de%20analisis%20agronomico';
+const whatsapp = 'https://wa.me/573028473311/?text=Hola!,%20me%20interesa%20recibir%20información';
 
 
 const Footer2 = () => {

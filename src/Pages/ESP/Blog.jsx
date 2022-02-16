@@ -21,6 +21,7 @@ const Blog = () => {
         <div className="mt-10">
           <Slides />
         </div>
+        
         <Footer />
       </div>
     );
