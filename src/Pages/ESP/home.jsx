@@ -16,7 +16,7 @@ const Home = () => {
             
             <Navbar/>
             <Banner
-                title='Contrata un Equipo de Desarrollo Manejado por CreApps'
+                title='Contrata un Equipo de Desarrollo Manejado por Carlos Andres'
                 text='Para desarrollar tu plataforma web o ecommerce. Rápido y fácil.'
                 image={Creapps}
             /> 
